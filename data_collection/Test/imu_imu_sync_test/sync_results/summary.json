@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "file": "imu_imu_sync_20261021-190651.csv",
+    "rows": 2266,
+    "duration_s": 113.25,
+    "signal": "gyro",
+    "imus": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "verdict": "SYNCHRONISED",
+  "reasons": [],
+  "reference_imu": 1,
+  "tolerance_ms": 49.99995231628418,
+  "sample_period_ms": 49.99995231628418,
+  "n_spikes_matched": 40,
+  "n_motion_cycles": 20,
+  "per_imu": {
+    "1": {
+      "n": 40,
+      "mean_ms": 0.0,
+      "median_ms": 0.0,
+      "std_ms": 0.0,
+      "min_ms": 0.0,
+      "max_ms": 0.0,
+      "pct_peak_same_sample": 100.0,
+      "pct_within_tol": 100.0,
+      "max_abs_peak_sample_ms": 0.0,
+      "drift_ms_per_min": 0.0
+    },
+    "2": {
+      "n": 40,
+      "mean_ms": -0.9386938881629725,
+      "median_ms": -0.24506487190136506,
+      "std_ms": 2.656999937031732,
+      "min_ms": -12.318747941225629,
+      "max_ms": 4.7609251000071175,
+      "pct_peak_same_sample": 85.0,
+      "pct_within_tol": 100.0,
+      "max_abs_peak_sample_ms": 99.99990463256836,
+      "drift_ms_per_min": 0.655520815316573,
+      "xcorr_ms": -0.744059643390464,
+      "xcorr_peak": 0.9992941865900833
+    },
+    "3": {
+      "n": 40,
+      "mean_ms": -0.019753220647090175,
+      "median_ms": -0.05598718248564014,
+      "std_ms": 3.189568285121729,
+      "min_ms": -12.341803273199229,
+      "max_ms": 7.276808292084471,
+      "pct_peak_same_sample": 77.5,
+      "pct_within_tol": 100.0,
+      "max_abs_peak_sample_ms": 99.99990463256836,
+      "drift_ms_per_min": 0.9549013439008835,
+      "xcorr_ms": 0.7031101175232556,
+      "xcorr_peak": 0.9990580417882906
+    },
+    "4": {
+      "n": 40,
+      "mean_ms": -0.9752710666870245,
+      "median_ms": -0.5422261755908071,
+      "std_ms": 3.8626143719540167,
+      "min_ms": -12.187805510925465,
+      "max_ms": 8.24684832022697,
+      "pct_peak_same_sample": 60.0,
+      "pct_within_tol": 100.0,
+      "max_abs_peak_sample_ms": 99.99990463256836,
+      "drift_ms_per_min": -1.8111362557128885,
+      "xcorr_ms": -0.7940381735483638,
+      "xcorr_peak": 0.9982038555521379
+    },
+    "5": {
+      "n": 40,
+      "mean_ms": 1.217066304850931,
+      "median_ms": -0.04295968690572444,
+      "std_ms": 5.311743798140348,
+      "min_ms": -8.288534768560638,
+      "max_ms": 14.261096031741731,
+      "pct_peak_same_sample": 52.5,
+      "pct_within_tol": 100.0,
+      "max_abs_peak_sample_ms": 99.99990463256836,
+      "drift_ms_per_min": -0.1119556120653583,
+      "xcorr_ms": -0.28826194797950233,
+      "xcorr_peak": 0.9980686602587829
+    }
+  },
+  "max_spike_spread_ms": 14.300326649714755,
+  "median_spike_spread_ms": 5.647756937666576
+}
